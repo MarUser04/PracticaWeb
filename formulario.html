@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practica</title>
+
+	<link rel="stylesheet" type="text/css" href="libro_practicas_estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<meta name="viewport"	content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/images.ico">	
+</head>
+<body>
+
+	<header>
+		
+		<div class="desplegar-img">
+			<img src="images/snowball.jpg" class="imgT1">
+
+			<div class="imagen-desplegada">
+				<img src="images/snowball.jpg" class="imgT2">
+				<div class="desc">Snowball The Dog</div>
+			</div>
+
+			
+		</div>
+
+
+
+	
+		<h1><a href="libro_practicas.html">Titulo Pagina</a></h1>
+
+		<nav style="clear: right">
+			<ul class="topnav"> <!--topnav para menu responsive -->
+				<li><a href="libro_practicas.html">Inicio</a></li>
+				<li><a href="galeria.html">Galeria</a></li>
+				<li><a href="formulario.html">Formulario</a></li>
+				<li><a href="#">Menu4</a></li>
+				<li class="menu-desplegable"><a href="#" class="desplegable">Menu5</a>
+				<div class="desplegable-contenido">
+					<a href="#">Link1</a>
+					<a href="#">Link2</a>
+					<a href="#">Link3</a>					
+				</div>
+
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+	<h2 style="padding: 15px;">Formulario</h2>
+		
+	<div class="divForm">
+		<form>
+
+			<label for="fname">Nombre</label>
+			<input type="text" name="nombre" placeholder="Ingrese su Nombre">
+
+			<label for="lname">Apellidos</label>
+			<input type="text" name="apellidos" placeholder="Ingrese su Apellido(s)">
+
+			<label for="country">Pais</label>
+			<select id="pais" name="pais">
+				<option value="Venezuela">Venezuela</option>
+				<option value="Colombia">Colombia</option>
+				<option value="Argentina">Argentina</option>
+				<option value="Chile">Chile</option>
+			</select>
+			<br>
+			<label for="opc" style="padding:15px;  margin-top:15em;">Ud desea suicidarse?</label>
+			<br>
+			<input type="radio" name="gender" value="Si">Si &nbsp;
+			<input type="radio" name="gender" value="No">No &nbsp; 
+			<input type="radio" name="gender" value="maybe">Maybe &nbsp;
+			<br>
+			<input type="submit" value="Enviar Datos">
+		</form>
+	</div>
+	
+	</main>
+
+	<footer>
+		<p>UsecheSoft 2017</p>
+	</footer>
+
+
+</body>
+</html>
